@@ -3,7 +3,7 @@ interface IPageProps {
   className?: string;
 }
 
-const Container = ({ children, className }: IPageProps) => {
+const ContainerFluid = ({ children, className }: IPageProps) => {
   return (
     <div
       className={`mx-auto w-full ${className} max-w-screen-md md:max-w-full`}
@@ -13,4 +13,4 @@ const Container = ({ children, className }: IPageProps) => {
   );
 };
 
-export default Container;
+export default ContainerFluid;

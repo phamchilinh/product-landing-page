@@ -13,10 +13,10 @@ export const Header = () => {
         <div className="my-12 grid max-h-[496px] w-full grid-cols-11">
           <div className="col-span-5 flex h-[496px] flex-col py-[85px]">
             <div className="grow space-y-[30px] pb-[45px]">
-              <div className="text-[44px] font-bold leading-[54px]">
+              <div className="text-[44px] font-bold leading-[54px] text-[#2F281E]">
                 The Design Thinking superpowers
               </div>
-              <div className="text-lg font-normal leading-7">
+              <div className="text-lg font-normal leading-7 text-[#544837]">
                 Tools, tutorials, design and innovation experts, all in one
                 place! The most intuitive way to imagine your next user
                 experience.
